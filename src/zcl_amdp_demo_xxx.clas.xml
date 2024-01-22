@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_AMDP_DEMO_XXX</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Class tests AMDP</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_AMDP_DEMO_XXX</CLSNAME>
+     <CMPNAME>CONVERT_CURRENCY</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT> Method converts currency to EUR using AMDP</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_AMDP_DEMO_XXX</CLSNAME>
+     <CMPNAME>GET_FLIGHTS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT> Method reads flights from HANA DB using AMDP</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_AMDP_DEMO_XXX</CLSNAME>
+     <CMPNAME>TY_RESULT_LINE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Table type of Flights from HANA DB</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_FLIGHTS</CMPNAME>
+     <SCONAME>RESULT</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Internal table of Flights from HANA DB</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>
